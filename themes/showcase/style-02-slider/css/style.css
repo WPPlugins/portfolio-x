@@ -1,0 +1,97 @@
+.clear {
+    clear: both;
+}
+
+.portfolio-container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+}
+
+/**************************START CSS FOR SLIDER SHOWCASE *******************************/
+.showcase-slider-item-inner {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+
+.slick-loading .slick-list {
+    background: #fff url('../images/ajax-loader.gif') center center no-repeat;
+}
+
+.slick-slide {
+    opacity: 0.2;
+    -moz-transform: rotate(0deg) scale(0.6, 0.6) skewX(0deg) skewY(0deg) translate(0px, 0px); /* FF3.5+ */
+    -webkit-transform: rotate(0deg) scale(0.6, 0.6) skew(0deg, 0deg) translate(0px, 0px); /*Saf3.1+, Chrome*/
+    -o-transform: rotate(0deg) scale(0.6, 0.6) skew(0deg, 0deg) translate(0px, 0px); /* Opera 10.5 */
+    -ms-transform: rotate(0deg) scale(0.6, 0.6) skew(0deg, 0deg) translate(0px, 0px); /* IE 9 */
+    transform: rotate(0deg) scale(0.6, 0.6) skew(0deg, 0deg) translate(0px, 0px);
+    -webkit-transition: all 0.5s ease; /* Safari 3.2+, Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox 4-15 */
+    -o-transition: all 0.5s ease; /* Opera 10.5-12.00 */
+    transition: all 0.5s ease; /* Firefox 16+, Opera 12.50+ */
+}
+
+.slick-slide.slick-active {
+    opacity: 0.5;
+}
+
+.slick-slide.slick-current.slick-active.slick-center {
+    opacity: 1;
+    -moz-transform: rotate(0deg) scale(1, 1) skewX(0deg) skewY(0deg) translate(0px, 0px); /* FF3.5+ */
+    -webkit-transform: rotate(0deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px); /*Saf3.1+, Chrome*/
+    -o-transform: rotate(0deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px); /* Opera 10.5 */
+    -ms-transform: rotate(0deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px); /* IE 9 */
+    transform: rotate(0deg) scale(1, 1) skew(0deg, 0deg) translate(0px, 0px);
+    /*width: 500px;*/
+}
+
+.slick-arrow {
+    position: absolute;
+    width: 50px;
+    visibility: hidden;
+    height: 80px;
+    top: 50%;
+    margin-top: -40px;
+    background-color: rgba(0, 0, 0, 0.40);
+    background-size: 60%;
+    border: none;
+    z-index: 9;
+    cursor: pointer;
+    color: #ffffff;
+    opacity: 0;
+    text-indent: -99999px;
+    -webkit-transition: all 0.5s ease; /* Safari 3.2+, Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox 4-15 */
+    -o-transition: all 0.5s ease; /* Opera 10.5-12.00 */
+    transition: all 0.5s ease; /* Firefox 16+, Opera 12.50+ */
+}
+
+.showcase-slider:hover .slick-arrow {
+    visibility: visible;
+    opacity: 1;
+}
+
+.slick-prev {
+    left: 0;
+    background-image: url("../images/left-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-next {
+    right: 0;
+    background-image: url("../images/rightt-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 800px) {
+    .slick-arrow {
+        width: 40px;
+        background-size: 60%;
+    }
+}

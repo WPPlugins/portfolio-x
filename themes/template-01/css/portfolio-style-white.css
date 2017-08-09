@@ -1,0 +1,90 @@
+.portfolio-container, .portfolio-single-container {
+	color: #797979;
+}
+.portfolio-title h1 {
+	color: #444;
+}
+.portfolio-parallax-text-holder a {
+	color: #797979 !important;
+}
+.portfolio-parallax-number {
+	color: #f3f3f3;
+}
+/***************STAR SINGLE PAGE CSS*************************/
+.portfolio-single-container {
+	background-color: #F7F7F7;
+}
+.social-icons ul li a:hover {
+	background: #d7d7d7;
+	color: #FFF;
+}
+.portfolio-container, .portfolio-single-container {
+	color: #797979;
+}
+.portfolio-title h1 {
+	color: #444;
+}
+.portfolio-parallax-number {
+	color: #f3f3f3;
+}
+/***************STAR SINGLE PAGE CSS*************************/
+.fancybox-overlay {
+	background-color: #F7F7F7;
+}
+.portfolio-single-container {
+	background-color: #F7F7F7;
+	color: #797979;
+}
+.single-portfolio-title {
+	color: #797979;
+	font-size: 1.5em;
+}
+.single-portfolio-footer h3 {
+	color: #797979;
+}
+.social-icons ul li a:hover {
+	background: #d7d7d7;
+	color: #FFF;
+}
+.portfolio-projects-nav {
+	border-left: 2px solid #f2f2f2;
+}
+.single-portfolio-footer .portfolio-projects-nav > a {
+	color: #1f2021;
+}
+.single-portfolio-footer .portfolio-projects-nav > a .icon {
+	background: #e6e6e6 none repeat scroll 0 0;
+}
+.single-portfolio-footer .portfolio-projects-nav > a .icon span {
+	color: #fff;
+}
+.single-portfolio-footer .portfolio-projects-nav > a:hover .icon {
+	background: #1f2021 none repeat scroll 0 0;
+}
+.single-portfolio-footer h3 {
+	font-size: 18px;
+}
+/**********  CUSTOM PAGINATION **********/
+/*.custom-pagination span.page-numbers, .custom-pagination a.page-numbers {*/
+    /*border-color: #e3e3e3;*/
+/*}*/
+
+
+/************************star filter css***********************/
+
+.qc_filter li a {
+	color: #000;
+	background-image: linear-gradient(to right, #e3e3e3 50%, #e3dbff 50%); /* Standard syntax */
+}
+.qc_filter li a:hover, .qc_filter li.qcld_portfolio_activate a {
+	color: #FFFFFF;
+}
+/*.inside-popup-details*/
+
+.inside-popup-details {
+	color: red !important;
+}
+/************************12-12-16***********************/
+.portfolio-parallax-number h1 {
+color: #f3f3f3;
+}
